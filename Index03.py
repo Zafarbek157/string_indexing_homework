@@ -1,4 +1,4 @@
-def main(s):
+def main():
     """
     The string variable s is given. return the last character.
     Args:
@@ -6,4 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a="number"
+    return a[-1]
+    
+print(main())

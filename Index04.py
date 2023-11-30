@@ -1,4 +1,4 @@
-def main(s):
+def main():
     """
     The s string variable is given. Return three characters from the beginning.
     Args:
@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a="number"
+    return a[:3]
+print(main())

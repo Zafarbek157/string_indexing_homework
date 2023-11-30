@@ -1,4 +1,4 @@
-def main(s):
+def main():
     """
     The string variable s is given. return the second character.
     Args:
@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    a="python"
+    return a[1]
+print(main())
