@@ -1,4 +1,4 @@
-def main():
+def main(s):
     """
     Given a variable s string of length five. Determine the number of digits involved in this variable.
     Args:
@@ -6,6 +6,5 @@ def main():
     Returns:
         int: answer
     """
-    a="123qwe"
-    return len(a)
-print(main())
+    return len(s)
+print(main("123qwe"))

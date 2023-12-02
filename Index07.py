@@ -1,4 +1,4 @@
-def main():
+def main(s,n):
     """
     The s string variable is given. n Return the character in the index, otherwise return False.
     Args:
@@ -6,10 +6,9 @@ def main():
     Returns:
         str: answer
     """
-    a="good"
-    n=4
-    if len(a)<=n:
+   
+    if len(s)<=n:
         return False
-    if len(a)>=n:
-        return a[n]
-print(main())
+    if len(s)>=n:
+        return s[n]
+print(main( "good",4))

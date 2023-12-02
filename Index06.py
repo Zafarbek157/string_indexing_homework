@@ -1,4 +1,4 @@
-def main():
+def main(s):
     """
     A string variable consisting of several characters is given. Add and return the first and last character.
     Args:
@@ -6,7 +6,6 @@ def main():
     Returns:
         str: answer
     """
-    a="uz"
-    a=a[0]+a[-1]
-    return a
-print(main())
+    
+    return s[0]+s[-1]
+print(main("uz"))

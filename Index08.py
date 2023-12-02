@@ -1,4 +1,4 @@
-def main(s):
+def main(A):
     """
     A string of length five is given. Return the index of the "*" character, return False if not present.
     Args:
@@ -6,5 +6,6 @@ def main(s):
     Returns:
         int: answer
     """
+    
     return
         
