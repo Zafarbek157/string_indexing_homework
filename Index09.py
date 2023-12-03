@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if str(s):
+        return s
+    else:
+        return -1
+print(main("213"))
+    
