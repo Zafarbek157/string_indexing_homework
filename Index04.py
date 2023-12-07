@@ -6,5 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return s[:3]
+    return s[:3
 print(main( "number"))

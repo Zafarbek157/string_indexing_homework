@@ -6,5 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return s[0]
+    return s[0
 print(main("python2023d"))

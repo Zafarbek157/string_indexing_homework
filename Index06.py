@@ -7,5 +7,5 @@ def main(s):
         str: answer
     """
     
-    return s[0]+s[-1]
+    return s[0]+s[-1
 print(main("uz"))

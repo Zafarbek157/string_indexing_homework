@@ -6,5 +6,5 @@ def main(s):
     Returns:
         int: answer
     """
-    return len(s)
+    return len(s
 print(main("123qwe"))
